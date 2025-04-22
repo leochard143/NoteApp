@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Offline Note App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="fade-in">Offline Note App</h1>
+  
+  <textarea id="noteInput" placeholder="Type your note..."></textarea>
+  <br>
+  <button onclick="saveNote()">Save Note</button>
+  <button onclick="loadNote()">Load Last Note</button>
+
+  <p><strong>Saved Note:</strong></p>
+  <div id="savedNote" class="fade-in-box"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
